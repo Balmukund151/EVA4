@@ -1,5 +1,7 @@
+Target,Result and Analysis of all the 5 files
 
-1. setup+batch normalization --> Target reach Accuracy
+
+1. Target:-setup+batch normalization --> Target reach Accuracy
 	
 	Result:- reaches 99.57% in 15 epochs with 301,984 params
 	best train accuracy= 100%
@@ -10,7 +12,7 @@
 	Gap between train accuracy(100%) and test accuracy(99.57%) is 0.42 which can be reduced with regularization.
 	Target for next step is to 1st make model light weight and also also GAP.
 	
-2. reduce params to make model lightweight
+2. Target:- reduce params to make model lightweight
 	
 	Result:-
 	Params=7832
@@ -22,7 +24,7 @@
 	still Gap between train accuracy and test accuracy is 0.44%. So need to add regularization.
 	Next add Dropouts
 
-3. Add 	Dropouts
+3. Target:- Add Dropouts
 	
 	results:-
 	params=7832
@@ -34,7 +36,7 @@
 	Also GAP can be applied to reduce big kernals and then we can increase the capacity.
 	In next step we will add GAP to reduce big kernels, so that in final step we can improve capacity.
 
-4. Add GAP and add a conv block for adding capacity
+4. Target:- Add GAP and add a conv block for adding capacity
 	
 	results:-
 	params=8456
@@ -46,7 +48,7 @@
 	To improve target we will add Image Augmentation and remove dropout so that test accuracy also improves and croses target.
 	
 
-5. Add Image Augmentation and remove dropout
+5. Target:- Add Image Augmentation and remove dropout
 	
 	results:-
 	params=8456
