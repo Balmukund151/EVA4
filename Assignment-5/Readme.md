@@ -1,6 +1,6 @@
-5 Steps:-
 
 1. setup+batch normalization --> Target reach Accuracy
+	
 	Result:- reaches 99.57% in 15 epochs with 301,984 params
 	best train accuracy= 100%
 	best test accuracy= 99.57%
@@ -11,6 +11,7 @@
 	Target for next step is to 1st make model light weight and also also GAP.
 	
 2. reduce params to make model lightweight
+	
 	Result:-
 	Params=7832
 	best train accuracy= 99.65%
@@ -22,6 +23,7 @@
 	Next add Dropouts
 
 3. Add 	Dropouts
+	
 	results:-
 	params=7832
 	best train accuracy= 99.09%
@@ -33,6 +35,7 @@
 	In next step we will add GAP to reduce big kernels, so that in final step we can improve capacity.
 
 4. Add GAP and add a conv block for adding capacity
+	
 	results:-
 	params=8456
 	best train accuracy= 99.00%
@@ -44,6 +47,7 @@
 	
 
 5. Add Image Augmentation and remove dropout
+	
 	results:-
 	params=8456
 	best train accuracy= 99.08%
