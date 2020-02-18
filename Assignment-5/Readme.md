@@ -32,7 +32,26 @@
 	Also GAP can be applied to reduce big kernals and then we can increase the capacity.
 	In next step we will add GAP to reduce big kernels, so that in final step we can improve capacity.
 
-4. Add GAP
+4. Add GAP and add a conv block for adding capacity
+	results:-
+	params=8456
+	best train accuracy= 99.00%
+	best test accuracy= 99.29%
+	
+	Analysis:-
+	Even after adding Gap and a conv block the train and test accuracy are not improved much.
+	To improve target we will add Image Augmentation and remove dropout so that test accuracy also improves and croses target.
+	
 
-5. Add Image Augmentation
+5. Add Image Augmentation and remove dropout
+	results:-
+	params=8456
+	best train accuracy= 99.08%
+	best test accuracy= 99.52% in 13th epoch and 99.42% in 12th epoch
+	
+	Analysis:-
+	a. Applied Image Augmentation
+	b. removed dropout
+	c. reduced bacth size
+	The combination of all the 3 above worked and improved the accuracy to more extent. Batch size was reduced to 64 which made it move to 99.52%. without batch size reduction it just made to 99.42% only once.
 	
