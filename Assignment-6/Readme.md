@@ -1,19 +1,25 @@
 Plots
 **********************************************************************************
 
+==================================================================================
 Test_Loss_and_Test_Accuracy Graph
+==================================================================================
 
 
 ![alt text](https://github.com/Balmukund151/EVA4/blob/master/Assignment-6/Test_Loss_and_Test_Accuracy%20.png)
 
 
+==================================================================================
 misclassified_L1_list
+==================================================================================
 
 
 ![alt text](https://github.com/Balmukund151/EVA4/blob/master/Assignment-6/misclassified_L1_list.png)
 
 
+==================================================================================
 misclassified_L2_list
+==================================================================================
 
 
 ![alt text](https://github.com/Balmukund151/EVA4/blob/master/Assignment-6/misclassified_L2_list.png)
