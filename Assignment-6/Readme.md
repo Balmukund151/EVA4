@@ -1,4 +1,9 @@
+Plots
+**********************************************************************************
 
+![alt text](https://github.com/Balmukund151/EVA4/blob/master/Assignment-6/Test_Loss_and_Test_Accuracy%20.png)
+![alt text](http://url/to/img.png)
+![alt text](http://url/to/img.png)
 
 ***********************************************************************************
 Log Without L1 and L2
