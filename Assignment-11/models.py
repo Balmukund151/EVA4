@@ -280,12 +280,3 @@ class Assignment11(nn.Module):
         x = self.linear(x)
         x = x.view(-1,10)
         return F.log_softmax(x, dim=-1)
-        
-    def ResBlock(in_channels, repeat):
-        layers=[]
-        for i in range(repeat):
-            layers.append(nn.Sequential(
-            nn.Conv2d(in_channels=in_channels, out_channels=in_channels, kernel_size=(3, 3), padding=1, bias=False),
-            nn.BatchNorm2d(in_channels),
-            nn.ReLU()))
-        return nn.Sequential(*layers)
