@@ -1,0 +1,4 @@
+Each Dog image in json has the following attributes:-
+1. shape attributes- This intern contains X,Y which is the centre of the bounding box and width,height of the bounding box.
+2. region attributes- This intern contains name of the image, category(dog, bird, etc) and the quality of the image.
+image quality contains whether image is taken from front , illumination of the image is good and quality of image is good or not.
