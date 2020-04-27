@@ -1,6 +1,6 @@
 *********************************************************************************************
 
-YoloV3 applied to detec ShinChan.
+YoloV3 applied to detect ShinChan.
 
 https://www.youtube.com/embed/-6H8zP1qGI8
 
